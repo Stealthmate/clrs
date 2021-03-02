@@ -38,7 +38,7 @@ print_row([f"10^{int(t * np.log10(2))}" for t in TIMES])
 print()
 
 print("sqrt(n)")
-print_row([m**2 for t in TIMES])
+print_row([t**2 for t in TIMES])
 print()
 
 print("n")
